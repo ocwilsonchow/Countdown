@@ -64,6 +64,7 @@ a{
 
 nav{
   width: 30%;
+  pointer: cursor;
 }
 
 nav ul{

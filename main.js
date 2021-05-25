@@ -120,13 +120,13 @@ console.log(gap);
 
 };
 
-      setInterval(countdown, 10);
+      setInterval(countdown, 1);
 
 
 };
 
-  setInterval(countdown, 10);
+  setInterval(countdown, 1);
 
 };
 
-  setInterval(countdown, 10);
+  setInterval(countdown, 1);

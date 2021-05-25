@@ -146,7 +146,6 @@ main ul{
   display: flex;
   justify-content: space-around;
   text-align: center;
-  width: ;
 }
 
 .day,.hour,.minute,.second{

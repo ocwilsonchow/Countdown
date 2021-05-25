@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #112;
+  color: #ccc;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+:root{
+  --text-color: #fff;
+}
+
+ul{
+  list-style: none;
+}
+
+h1{
+  color: var(--text-color);
+  font-size: 50px;
+  letter-spacing: ;
+  margin-bottom: 30px;
+}
+
+h2{
+  color: var(--text-color);
+}
+
+h3{
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.main i{
+  font-size: 50px;
+}
+
+.hidden{
+  display: none;
+}
+
+a{
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.container{
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+}
+
+nav{
+  width: 30%;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li{
+  color: var(--text-color);
+}
+
+.cursor{
+  font-weight: 700;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+    from, to{
+      color: transparent;
+    }
+
+    50%{
+      color: var(--text-color);
+    }
+}
+
+p{
+  margin: 20px 0;
+}
+
+.coming-soon i{
+  font-size: 30px;
+  color: black;
+}
+
+main ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.wb-body{
+  background: #111;
+  padding: 20px;
+}
+
+
+.coming-soon{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background: #fff;
+  color: black;
+  border-radius: 20px;
+  padding: 30px 35px;
+  box-shadow: 0 0 60px 10px rgba(0,0,0, .20);
+  transition: 0.8s;
+  transform: scale(0.8);
+}
+
+
+.coming-soon:hover{
+  transform: scale(0.87);
+  transition: 0.8s;
+  box-shadow: 0 0 60px 10px rgba(0,0,0, .40);
+}
+
+.countdown{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.day,.hour,.minute,.second{
+  font-size: 1.5rem;
+}
+
+.coming-soon h2{
+  font-weight: 400;
+  font-size: 2em;
+  padding: 1rem;
+  color: black;
+}
+
+.coming-soon h3{
+  font-size: 3em;
+  font-weight: bolder;
+  color: black;
+}
+
+.coming-soon h4{
+  font-size: ;
+  font-weight: normal;
+  color: ;
+}
+
+.cursor{
+  color: black;
+}
+
+.waiting{
+  height: 20vh;
+  margin: 20px;
+}

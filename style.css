@@ -164,6 +164,19 @@ main ul a:hover{
   display: flex;
   justify-content: space-around;
   text-align: center;
+  transform: scale(0.8);
+}
+
+@media screen and (min-width:480px){
+  .countdownbox{
+    display: flex;
+    flex-direction: column;
+    transform: scale(0.9);
+    justify-content: center;
+    align-items: center;
+
+  }
+
 }
 
 .day,.hour,.minute,.second{

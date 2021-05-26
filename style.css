@@ -167,16 +167,24 @@ main ul a:hover{
   transform: scale(0.8);
 }
 
-@media screen and (min-width:480px){
+@media screen and (max-width:800px){
   .countdownbox{
     display: flex;
     flex-direction: column;
-    transform: scale(0.9);
+    transform: scale();
     justify-content: center;
     align-items: center;
-
+    transition: 0.8s;
   }
+}
 
+@media screen and (min-width:900px){
+  .countdownbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transition: 0.8s;
+  }
 }
 
 .day,.hour,.minute,.second{

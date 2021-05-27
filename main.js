@@ -124,7 +124,8 @@ setInterval(countdown, 500); };
 
 setInterval(countdown, 500); };
 
-setInterval(countdown, 500);
+setInterval(countdown, 500); };
+
 
 
 

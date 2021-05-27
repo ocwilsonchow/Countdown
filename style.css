@@ -76,7 +76,7 @@ a{
 }
 
 nav{
-  width: 40%;
+  width: 60%;
   pointer: cursor;
 }
 
@@ -217,4 +217,19 @@ main ul a:hover{
 .waiting{
   height: 20vh;
   margin: 20px;
+}
+
+.showcase h1{
+  padding: 20px;
+}
+
+.showcase{
+  padding: 100px 0;
+  display: flex;
+  flex-direction: ;
+  justify-content: center;
+  color: #fff;
+  background: #050f38;
+  width: 70%;margin: auto;
+  border-radius: 20px;
 }

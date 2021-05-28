@@ -229,7 +229,8 @@ main ul a:hover{
   flex-direction: ;
   justify-content: center;
   color: #fff;
-  background: #050f38;
-  width: 70%;margin: auto;
+  background: #111;
+  width: 70%;
+  margin: 50px auto;
   border-radius: 20px;
 }

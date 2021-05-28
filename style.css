@@ -22,14 +22,15 @@
 
 body{
   font-family: 'Roboto', sans-serif;
-  background-color: #112;
-  color: #ccc;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0) 40%), radial-gradient(closest-side, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)), radial-gradient(circle at center -48%, rgb(188, 202, 228) 50%, rgb(80, 94, 135) 110%);
+  background: radial-gradient(closest-side, rgba(228, 79, 79, 0.7), rgba(228, 79, 79, 0)) 600% 500% / 90% 90% no-repeat, radial-gradient(closest-side, rgba(228, 79, 79, 0.7), rgba(228, 79, 79, 0)) 600% 180% / 90% 90% no-repeat, radial-gradient(closest-side, rgba(250, 250, 218, 0.2), rgba(250, 250, 218, 0)) 100% 150% / 75% 50% no-repeat, radial-gradient(closest-side, rgba(250, 250, 218, 0.3), rgba(250, 250, 218, 0)) -400% -100% / 90% 80% no-repeat, radial-gradient(closest-side, rgba(94, 225, 249, 0.8), rgba(94, 225, 249, 0)) -100% -250% / 85% 80% no-repeat, radial-gradient(closest-side, rgba(94, 225, 249, 0.6), rgba(94, 225, 249, 0)) -170% 100% / 70% 60% no-repeat, linear-gradient(30deg, rgb(110, 16, 206) 10%, rgba(110, 16, 206, 0) 70%, rgba(255, 255, 255, 0) 90%) 50% 50% / 100% 100% no-repeat, linear-gradient(144deg, rgba(233, 235, 104, 0), rgba(233, 235, 104, 0.3)) no-repeat, linear-gradient(90deg, rgba(104, 184, 235, 0.11), rgba(15, 216, 223, 0.11)) no-repeat, rgb(255, 255, 255);
+  color: #111;
   font-size: 18px;
   line-height: 1.6;
 }
 
 :root{
-  --text-color: #fff;
+  --text-color: #111;
 }
 
 ul{
@@ -50,7 +51,7 @@ h2{
 
 h3{
   margin-bottom: 10px;
-  color: #fff;
+  color: #111;
 }
 
 

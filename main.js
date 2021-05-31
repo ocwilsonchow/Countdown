@@ -1,6 +1,3 @@
-$("h1").text("Oc Wilson Chow")
-
-
 const about = document.querySelector('#about')
 const contact = document.querySelector('#contact')
 const aboutContent = document.querySelector('#about-content')

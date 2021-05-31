@@ -1,3 +1,6 @@
+$("h1").text("Oc Wilson Chow")
+
+
 const about = document.querySelector('#about')
 const contact = document.querySelector('#contact')
 const aboutContent = document.querySelector('#about-content')
@@ -64,7 +67,6 @@ const countdown = () => {
   document.querySelector('.second').innerText = textSecond;
 
 
-  console.log(gap);
 
 
 const countdown = () => {
@@ -89,9 +91,6 @@ document.querySelector('.hk-hour').innerText = textHour;
 document.querySelector('.hk-minute').innerText = textMinute;
 document.querySelector('.hk-second').innerText = textSecond;
 
-
-console.log(gap);
-
 const countdown = () => {
 const countDate = new Date('August 30, 2021 23:59:59').getTime();
 const now = new Date().getTime();
@@ -113,14 +112,10 @@ document.querySelector('.ht-day').innerText = textDay;
 document.querySelector('.ht-hour').innerText = textHour;
 document.querySelector('.ht-minute').innerText = textMinute;
 document.querySelector('.ht-second').innerText = textSecond;
-
-
-console.log(gap);
 };
 
-setInterval(countdown, 500);
+setInterval(countdown, 1000);
 };
-setInterval(countdown, 500);
+setInterval(countdown, 1000);
 };
-setInterval(countdown, 500);
-
+setInterval(countdown, 1000);
